@@ -1,0 +1,25 @@
+// unknown token
+@
+
+// missing ident in read
+read();
+
+// missing ) in timeexec
+timeexec(;
+
+// assignment missing '='
+a 1;
+
+// redeclaration and assign to undeclared
+int x;
+int x;
+y = 10;
+
+// invalid implicit type for int
+int z = "abc";
+
+// print with non-literal (not supported yet)
+print(z);
+
+// invalid expression
+int k = 1 + ;

@@ -1,0 +1,64 @@
+Sintaxe:
+    declaração de variaveis 
+        int idade = 10;
+        str nome = "sudohorus"
+        auto identifica_automatico = 21
+
+
+    entrada e saida básica
+        read(nome);
+        print(f"Ola, {nome}! Voce tem {idade} anos.")
+
+
+    loops e controles
+        for(int i=0;i<10;i++){
+            print(i);
+        }
+
+        while(idade<38){
+            idade++;
+        }
+
+    
+        if(idade >= 18) {
+            print("Maior de idade");
+        } else {
+            print("Menor de idade");
+        }
+
+
+    try / except
+        try{
+            funcao();
+        }except error{
+            print(f"{error}");
+        }
+
+    switch
+        switch opcao {
+            case 1 {
+                print("Opcao 1");
+            }
+            case 2 {
+                print("Opcao 2");
+            }
+            default {
+                print("Invalido");
+            }
+        }
+
+    importacao:
+        use biblioteca;
+        use io;
+        use math;
+
+    memoria(opcional)
+        auto data = alloc(1024); 
+        free(data);
+
+    
+
+    funções
+        main() -> int {
+
+        }
