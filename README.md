@@ -1,12 +1,13 @@
-# Linguagem de Programação (Nome ainda não definido)
+# Linguagem de Programação (MVP)
 
-> Esta linguagem ainda não possui nome oficial. Enquanto isso, você pode testar a sintaxe e rodar seus programas normalmente.
+Pequena linguagem interpretada com suporte a variáveis tipadas, expressões aritméticas/lógicas, condicionais e medição de tempo de execução.
 
-## Como usar
+[Ajuda](docs/guia-da-linguagem.md)
 
-1. Crie um arquivo de programa com extensão `.txt` dentro da pasta `programs`.
-2. Execute o programa usando o comando:
+## Executar
 
 ```bash
-./build/bin_prog nomedoarquivo.txt
+./build/bin_prog programs/program.txt
 ```
+
+
